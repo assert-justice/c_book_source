@@ -78,7 +78,7 @@ Coming from another language you should be comfortable with `while` and `for` lo
 int main() {
     int number = 10;
     printf("Countdown!\n");
-    while(number > 10){
+    while(number > 0){
         printf("%i\n", number);
         number--;
     }
